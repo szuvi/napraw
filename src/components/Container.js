@@ -5,7 +5,7 @@ const Container = styled.div`
   grid-template-columns: 1fr;
   grid-gap: ${props => props.gap ?? '0.5rem'};
   place-items: center;
-  max-witdth: 500px;
+  max-width: 500px;
   margin: 0 auto;
 `;
 
