@@ -12,6 +12,7 @@ export default function App() {
   const handleChange = e => {
     const inputValue = e.target.value;
     setInput(convert(inputValue));
+    setCopySuccess(false);
   };
 
   const handleCopy = () => {
